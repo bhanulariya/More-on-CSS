@@ -1,0 +1,36 @@
+/* CSS for Google Fonts */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+    padding: 0%;
+    margin: 0%;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+}
+
+
+/* Apply the embed link */
+
+h1 {
+    font-family: "Oswald", sans-serif;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+/* CSS for Circular Image */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.img {
+    display: flex;
+    background-image: url(random_img.webp);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    box-shadow: 0px 0px 5px;
+    /* Border Radius for Image Circulation */
+    border-radius: 50%;
+}
